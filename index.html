@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <title>Riot JS</title>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href='style/stack.min.css ' rel='stylesheet'>
+    <link href='style/style.min.css' rel='stylesheet'>
+    <script src='js/riot+compiler.min.js'></script>
+    <script src='js/index.js'></script>
+
+
+
+</head>
+
+<body>
+
+    <body>
+        <div class='container'>
+
+
+
+            <Header></Header>
+            <hr>
+            <Chat></Chat>
+            <footer></footer>
+
+            <!-- Riot Tags -->
+            <script src='tags/header.tag' type="riot/tag"></script>
+            <script src='tags/chat.tag' type="riot/tag"></script>
+            <script src='tags/footer.tag' type="riot/tag"></script>
+
+
+            <script type='text/javascript'>
+                riot.mount('*');
+            </script>
+
+        </div>
+    </body>
+
+</html>
